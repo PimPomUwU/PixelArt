@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.agbalumo-regular {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  background: url(../img/bg.png) ;
+}
+
+.rojo {color: #FF0000;}
+.azul {color: #00DDFF;}
+
+.bg-btn{color: #fff;}
+
+h1 {
+  font-size: 80px;
+}
+
+
