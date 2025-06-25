@@ -1,12 +1,29 @@
-0<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Catálogo Escolar</title>
-  <link rel="stylesheet" href="bienvenido.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="../img/logo.jpg" alt="Logo" class="logo" />
+      <img src="../img/PixelArt.png" alt="PixelArt" class="logo-text" />
+    </div>
+    <div class="buttons">
+      <select class="custom-select">
+        <option value="">Categorías</option>
+        <option value="escolar">Escolar</option>
+        <option value="dedicado">Material dedicado</option>
+      </select>
+      <a class="contact-button" href="contacto.html">Contáctanos</a>
+    </div>
+  </nav>
+
   <header class="header">
     <h1>¡Bienvenido!</h1>
     <p>
@@ -18,19 +35,20 @@
     </p>
   </header>
 
+
   <main class="catalogo">
     <div class="producto">
-      <img src="../views/imagenes/lapiz.jpg" alt="Lápiz" />
+      <img src="imagenes/lapiz.jpg" alt="Lápiz" />
       <h3>LÁPIZ NORMA</h3>
       <p>$1.000</p>
     </div>
     <div class="producto">
-      <img src="2.jpg" alt="Cuaderno" />
+      <img src="imagenes/cuaderno.jpg" alt="Cuaderno" />
       <h3>Cuaderno norma</h3>
       <p>$6.000</p>
     </div>
     <div class="producto">
-      <img src="3.webp" alt="Lapicero" />
+      <img src="imagenes/lapiceros.jpg" alt="Lapicero" />
       <h3>Lapicero</h3>
       <p>$2.000</p>
     </div>
@@ -38,4 +56,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
