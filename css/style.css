@@ -9,10 +9,20 @@
 
 a {
   text-decoration: none;
+  color: white;
+  font-family: "Agbalumo", system-ui;
+}
+
+.espacio>li{
+  margin: 10px 0px;
 }
 
 body {
   background: url(../img/bg.png) ;
+}
+
+li > img {
+  width: 40px;
 }
 
 .rojo {color: #FF0000;}
@@ -33,12 +43,14 @@ h1 {
   font-style: normal;
 }
 
-body {
+body{
+  text-decoration: none;
   font-family: 'Segoe UI', sans-serif;
   background-color: #000;
   color: white;
   text-align: center;
   padding: 20px;
+
 }
 
 .header {
