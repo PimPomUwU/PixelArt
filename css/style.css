@@ -15,6 +15,10 @@ body {
   background: url(../img/bg.png) ;
 }
 
+li > img {
+  width: 40px;
+}
+
 .rojo {color: #FF0000;}
 .azul {color: #00DDFF;}
 
