@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 15px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  max-width: 100%;
+}
+
+/* Contenedor del logo e imagen de texto */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Imagen del logo */
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Imagen de las letras (PixelArt) */
+.logo-text {
+  height: 30px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Botones a la derecha */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Select y botón */
+.custom-select,
+.contact-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Estilo visual para el select */
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='black'%20d='M2%205L0%203h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 10px;
+  padding-right: 30px;
+}
+
+.custom-select:focus,
+.contact-button:focus {
+  outline: none;
+}
